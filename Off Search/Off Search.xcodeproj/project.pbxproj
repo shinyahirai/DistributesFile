@@ -29,6 +29,12 @@
 		6594DC2818462C5D00957C40 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6594DC2718462C5D00957C40 /* iAd.framework */; };
 		65A225871842304500ED2A36 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A225861842304500ED2A36 /* Social.framework */; };
 		65B5A1871841446C00EB3707 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B5A1861841446C00EB3707 /* QuartzCore.framework */; };
+		65CD7E9618478C510066950D /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CD7E9218478C510066950D /* icon-60@2x.png */; };
+		65CD7E9718478C510066950D /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CD7E9318478C510066950D /* icon-small.png */; };
+		65CD7E9818478C510066950D /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CD7E9418478C510066950D /* icon-small@2x.png */; };
+		65CD7E9918478C510066950D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CD7E9518478C510066950D /* icon.png */; };
+		65CD7E9B18478D6F0066950D /* icon-small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CD7E9A18478D6F0066950D /* icon-small-40@2x.png */; };
+		65CD7E9D18478E3A0066950D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CD7E9C18478E3A0066950D /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +76,12 @@
 		65A225861842304500ED2A36 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		65B5A1861841446C00EB3707 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		65C22D4518463F5900DC3232 /* Off Search-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Off Search-Info.plist"; sourceTree = "<group>"; };
+		65CD7E9218478C510066950D /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "images/icon-60@2x.png"; sourceTree = "<group>"; };
+		65CD7E9318478C510066950D /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-small.png"; path = "images/icon-small.png"; sourceTree = "<group>"; };
+		65CD7E9418478C510066950D /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-small@2x.png"; path = "images/icon-small@2x.png"; sourceTree = "<group>"; };
+		65CD7E9518478C510066950D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = images/icon.png; sourceTree = "<group>"; };
+		65CD7E9A18478D6F0066950D /* icon-small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-small-40@2x.png"; path = "images/icon-small-40@2x.png"; sourceTree = "<group>"; };
+		65CD7E9C18478E3A0066950D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +187,12 @@
 		65F775F01843B980006BD964 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				65CD7E9C18478E3A0066950D /* Default.png */,
+				65CD7E9A18478D6F0066950D /* icon-small-40@2x.png */,
+				65CD7E9218478C510066950D /* icon-60@2x.png */,
+				65CD7E9318478C510066950D /* icon-small.png */,
+				65CD7E9418478C510066950D /* icon-small@2x.png */,
+				65CD7E9518478C510066950D /* icon.png */,
 				650F6EBA1845B0FB007D90FC /* icon@2x.png */,
 				650F6EBB1845B0FB007D90FC /* Default-568h@2x.png */,
 				650F6EBC1845B0FB007D90FC /* Default@2x.png */,
@@ -258,10 +276,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65CD7E9718478C510066950D /* icon-small.png in Resources */,
 				650F6EBF1845B0FB007D90FC /* Default@2x.png in Resources */,
 				654F39A9183F899C00A41EF5 /* Images.xcassets in Resources */,
+				65CD7E9618478C510066950D /* icon-60@2x.png in Resources */,
 				650F6EBD1845B0FB007D90FC /* icon@2x.png in Resources */,
+				65CD7E9B18478D6F0066950D /* icon-small-40@2x.png in Resources */,
 				654F399B183F899C00A41EF5 /* InfoPlist.strings in Resources */,
+				65CD7E9D18478E3A0066950D /* Default.png in Resources */,
+				65CD7E9918478C510066950D /* icon.png in Resources */,
+				65CD7E9818478C510066950D /* icon-small@2x.png in Resources */,
 				650F6EBE1845B0FB007D90FC /* Default-568h@2x.png in Resources */,
 				654F39A4183F899C00A41EF5 /* Main.storyboard in Resources */,
 			);
@@ -408,7 +432,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Off Search/Off Search-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Off Search/Off Search-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "Off Search";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -424,7 +448,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Off Search/Off Search-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Off Search/Off Search-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "Off Search";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

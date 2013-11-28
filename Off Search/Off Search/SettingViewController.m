@@ -72,8 +72,8 @@
 - (void)postSocial {
     // UIActivityViewControllerはソーシャル等に共有する機能を持ったViewを下からmodalでだしてくれる
     // 今回はSettingの中の共有ボタンで使用
-    NSString *text = @"Hello World!";
-    NSURL* url = [NSURL URLWithString:@"http://nonetdictionary.com"];  // テストURL挿入
+    NSString *text = @"オフラインでも辞書検索できるアプリ【Off Search】";
+    NSURL* url = [NSURL URLWithString:@"https://itunes.apple.com/us/app/off-search/id768224020?ls=1&mt=8"];  // テストURL挿入
     NSArray* actItems = [NSArray arrayWithObjects: text, url, nil];
     NSLog(@"actItems = %@",actItems);
     
